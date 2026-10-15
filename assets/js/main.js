@@ -57,7 +57,6 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   stagger('.cats .cat', 0.09);
   stagger('.steps .step', 0.08);
-  stagger('.insta-strip a', 0.06);
   stagger('.essay-stack .fig', 0.1);
 
   const targets = $$('.reveal, .wipe, .mask').filter(el => !el.closest('.hero'));

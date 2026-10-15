@@ -31,7 +31,7 @@ backup-v1/             → versão anterior do site (pode apagar quando quiser)
 
 - **Tipografia:** Fraunces (títulos — serifada variável, com eixos `SOFT`/`WONK`) + Instrument Sans (texto). Carregadas via Google Fonts.
 - **Paleta:** extraída do material de identidade da marca — verde-floresta `#25360A`, oliva `#647040`, sálvia `#ADB385`, dourado `#FAB534` e creme `#FDF4E5`. Todas definidas como variáveis no `:root` do CSS.
-- **Seções:** hero em tela cheia, letreiro deslizante, manifesto, lista de ensaios (com preview da foto seguindo o cursor no desktop e miniatura no celular), ensaio visual com texto fixo, galeria com filtros e lightbox, citação em destaque, sobre, processo, Instagram, contato e rodapé.
+- **Seções:** hero em tela cheia, letreiro deslizante, manifesto, lista de ensaios (com preview da foto seguindo o cursor no desktop e miniatura no celular), ensaio visual (texto + fotos menores ao lado da pilha de fotos grandes), galeria com filtros e lightbox, citação em destaque, sobre, processo, contato e rodapé.
 
 ## Acessibilidade e performance
 
@@ -46,3 +46,5 @@ backup-v1/             → versão anterior do site (pode apagar quando quiser)
 3. **Compartilhamento (Open Graph)** — a tag `og:image` usa caminho relativo; ao publicar em um domínio, trocar pela URL completa da imagem.
 4. **Vídeos** — os ~15 vídeos do material original não entraram no site: são arquivos de câmera muito grandes (40–135 MB cada). Se quiser uma seção de vídeo, comprimir antes (HandBrake ou similar, algo em torno de 5–15 MB cada).
 5. **Mais fotos** — a galeria usa 16 das fotos enviadas; ainda há outras na pasta original que podem entrar ou substituir as atuais.
+6. **Texto do "Sobre"** — o título já é "Por trás das câmeras", mas o texto ainda é o provisório (será escrito em conjunto).
+7. **Instagram** — a faixa de fotos do Instagram foi retirada porque os links levavam só ao perfil. Para voltar com ela, é preciso o link de cada post (`instagram.com/p/...`).
